@@ -10,8 +10,8 @@ export const Chat = () => {
     if(!userCtx.user) return <NameInput />
 
     return (
-        <div className="border border-white/30 rounded-md  ">
-            <div className="h-96 p-3 overflow-y-scroll ">
+        <div className="max-w-screen-lg  border border-white/30 rounded-md bg-slate-200 ">
+            <div className="h-96 p-3 break-all overflow-x-hidden   ">
                 <ChatMessages />
             </div>
             <div className="border-t border-t-white/30 p-3  ">

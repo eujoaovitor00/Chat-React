@@ -21,8 +21,8 @@ export const ChatInput = ({ name }: Props) => {
     }
     return(
         <input
-        className="w-full bg-transparent text-white text-md outline-none "
-        placeholder={`${name}, digite uma mensagem (e aperte enter)`}
+        className="w-full  bg-transparent text-black text-md outline-none max-w-full "
+        placeholder={`${name}, digite uma mensagem (e aperte enter) ` }
         value={textInput}
         onChange={e => setTextInput(e.target.value)}
         onKeyUp={handleKeyUpAction}

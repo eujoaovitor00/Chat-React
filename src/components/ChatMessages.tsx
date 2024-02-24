@@ -12,7 +12,7 @@ export const ChatMessages = () => {
                     className={`border border-white/20 rounded-md p-2 text-sm 
                        ${item.user === UserCtx?.user ? 
                         'self-end  bg-green-800 text-rigth ' :
-                        'self-start bg-white/5 text-left ' }
+                        'self-start bg-slate-600 text-left ' }
                     `}
                     >
                     
